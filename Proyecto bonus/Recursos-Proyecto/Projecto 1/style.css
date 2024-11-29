@@ -1,6 +1,43 @@
+html, body {
+
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: gray;
+}
+
+
 .background_image1{
     background-image: url(image1.png);
-
     min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
  }
 
+
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align:center;
+     color: black;
+     font-size: 27px;
+     letter-spacing: 8px;
+     text-transform: uppercase 
+
+}
+ 
+.textbg{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+} 
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}   
